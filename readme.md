@@ -1,11 +1,7 @@
 # weeBell Hardware
-weeBell is a platform designed to make it easy to (re)use old "POTS" telephones - rotary or DTMF. It is comprised of two boards - gCore and the gCore POTS shield. [gCore](https://github.com/danjulio/tCam) is a high-end ESP32 development board aimed at making portable gadgets with graphical displays. The gCore POTS shield, documented here, contains the circuitry necessary to implement a local area "line card" providing the proper signaling for traditional 2-wire telephones, including ring generation, DTMF or rotary dialing support and caller ID. You can plug a telephone directly into it or you can connect it to the existing wiring that might exist in your home or business and then plug a telephone or two into other jacks around the building.
+weeBell is a platform designed to make it easy to (re)use old "POTS" telephones - rotary or DTMF. It is comprised of two boards - gCore and the gCore POTS shield. [gCore](https://github.com/danjulio/gCore) is a high-end ESP32 development board aimed at making portable gadgets with graphical displays. The gCore POTS shield, documented here, contains the circuitry necessary to implement a local area "line card" providing the proper signaling for traditional 2-wire telephones, including ring generation, DTMF or rotary dialing support and caller ID. You can plug a telephone directly into it or you can connect it to the existing wiring that might exist in your home or business and then plug a telephone or two into other jacks around the building.
 
 ![weeBell prototype with phone](pictures/proto_dialing.png)
-
-Different software running on weeBell can do things like let POTS phones call and receive using a cellphone via Bluetooth, implement a SIP-based VOIP phone, or act as a functional prop in an installation of some kind.
-
-[LINKS HERE]
 
 The name weeBell is a play on both small and wireless and pays homage to the granddaddy of all technology companies, AT&T or simply "Ma Bell".  In 1984 AT&T's telephone system was split into several regional telephone companies or Baby Bells as they were christened.  weeBell is an even smaller regional telephone provider...a provider for one.
 
@@ -14,6 +10,11 @@ The name weeBell is a play on both small and wireless and pays homage to the gra
 weeBell hardware may be purchased from my store on tindie.com.
 
 ![Angled view of weeBell hardware](pictures/pots_shield_mated_r3.png)
+
+## weeBell software
+Different software running on weeBell can do things like let POTS phones call and receive using a cellphone via Bluetooth, implement a SIP-based VOIP phone, or act as a functional prop in an installation of some kind.  Current software I have written includes.
+
+1. [weeBell Bluetooth](https://github.com/danjulio/weeBell_bluetooth) - Uses the Bluetooth classic handsfree protocol to allow POTS telephones to make and receive phone calls through your cellphone.
 
 ## gCore POTS shield
 
