@@ -11,6 +11,10 @@ weeBell hardware may be purchased from my store on tindie.com.
 
 ![Angled view of weeBell hardware](pictures/pots_shield_mated_r3.png)
 
+gCore and the gCore POTs shield available to buy from [tindie](https://www.tindie.com/products/30895/).
+
+![gCore and gCore POTS shield kit](pictures/weeBell_kit.png)
+
 ## weeBell software
 Different software running on weeBell can do things like let POTS phones call and receive using a cellphone via Bluetooth, implement a SIP-based VOIP phone, or act as a functional prop in an installation of some kind.  Current software I have written includes.
 
@@ -67,7 +71,9 @@ You will need to solder a 16-position 2.54 mm female socket (6.1 mm body height)
 
 ![gCore and POTs shield mated](pictures/pots_shield_mated_side.png)
 
-You'll also need a 3.7V Li-Ion battery.  The enclosure is designed for a [single 18650](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1781/5054543) cell using a the standard Adafruit/Sparkfun JST connector (be careful, some batteries come with reversed polarity on these connectors).  You can also construct a battery using a 18650 cell and [cable assemblies](https://www.adafruit.com/product/261) from Adafruit.
+You'll also need a 3.7V Li-Ion battery.  The enclosure is designed for a single 18650 cell (for example from [Adafruit](https://www.adafruit.com/product/1781) or [Digi-Key](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1781/5054543)) using a the standard Adafruit/Sparkfun polarity JST PH connector (be careful, some batteries come with reversed polarity on these connectors).  You can also construct a battery using a 18650 cell and [cable assembly](https://www.adafruit.com/product/261) from Adafruit.
+
+![18650 battery assembly](pictures/18650_battery.png)
 
 ## weeBell 3D printed enclosure
 The ```enclosure``` folder contains an enclosure design created with OpenSCAD for printing on an FDM printer.  It includes source as well as STL files for the four pieces that make up the enclosure.
