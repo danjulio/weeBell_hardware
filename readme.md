@@ -5,13 +5,11 @@ weeBell is a platform designed to make it easy to (re)use old "POTS" telephones 
 
 The name weeBell is a play on both small and wireless and pays homage to the granddaddy of all technology companies, AT&T or simply "Ma Bell".  In 1984 AT&T's telephone system was split into several regional telephone companies or Baby Bells as they were christened.  weeBell is an even smaller regional telephone provider...a provider for one.
 
-![weeBell Block Diagram](pictures/weeBell_block_diagram.png)
-
-weeBell hardware may be purchased from my store on tindie.com.
-
 ![Angled view of weeBell hardware](pictures/pots_shield_mated_r3.png)
 
-gCore and the gCore POTs shield available to buy from [tindie](https://www.tindie.com/products/30895/).
+![weeBell Block Diagram](pictures/weeBell_block_diagram.png)
+
+gCore and the gCore POTs shield available to buy from [tindie](https://www.tindie.com/products/30895/). gCore comes preloaded with the latest version of the weeBell Bluetooth firmware letting a POTS telephone place and receive calls through a paired cellphone.
 
 ![gCore and gCore POTS shield kit](pictures/weeBell_kit.png)
 
