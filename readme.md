@@ -1,7 +1,7 @@
 # weeBell Hardware
 weeBell is a platform designed to make it easy to (re)use old "POTS" telephones - rotary or DTMF. It is comprised of two boards - gCore and the gCore POTS shield. [gCore](https://github.com/danjulio/gCore) is a high-end ESP32 development board aimed at making portable gadgets with graphical displays. The gCore POTS shield, documented here, contains the circuitry necessary to implement a local area "line card" providing the proper signaling for traditional 2-wire telephones, including ring generation, DTMF or rotary dialing support and caller ID. You can plug a telephone directly into it or you can connect it to the existing wiring that might exist in your home or business and then plug a telephone or two into other jacks around the building.
 
-![weeBell prototype with phone](pictures/proto_dialing.png)
+![weeBell with phone](pictures/weeBell_rotary.jpg)
 
 The name weeBell is a play on both small and wireless and pays homage to the granddaddy of all technology companies, AT&T or simply "Ma Bell".  In 1984 AT&T's telephone system was split into several regional telephone companies or Baby Bells as they were christened.  weeBell is an even smaller regional telephone provider...a provider for one.
 
